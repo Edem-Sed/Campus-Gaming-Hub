@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Gaming Club - Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">🎮 Campus Gaming Club</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="games.html" class="active">Games</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Games Header -->
+    <header class="games-hero">
+        <div class="container">
+            <h1>Games We Play</h1>
+            <p>Check out our favorite games and what we're currently playing</p>
+        </div>
+    </header>
+
+    <!-- Games Categories -->
+    <section class="games-section">
+        <div class="container">
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all">All Games</button>
+                <button class="filter-btn" data-category="fps">FPS</button>
+                <button class="filter-btn" data-category="rpg">RPG</button>
+                <button class="filter-btn" data-category="moba">MOBA</button>
+                <button class="filter-btn" data-category="casual">Casual</button>
+            </div>
+
+            <div class="games-grid">
+                <!-- Game 1 -->
+                <div class="game-card" data-category="fps">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/csgo.jpg" alt="Counter-Strike: Global Offensive gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Counter-Strike: Global Offensive</h3>
+                        <p class="game-genre">FPS - Competitive</p>
+                        <p>Our most popular game! Weekly tournaments every Friday.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 45 players</span>
+                            <span><i class="fas fa-clock"></i> 3 tournaments/month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 2 -->
+                <div class="game-card" data-category="moba">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/league-12.jpg" alt="League of Legends gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>League of Legends</h3>
+                        <p class="game-genre">MOBA - Team-based</p>
+                        <p>Team battles and strategy. Perfect for making new friends!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 38 players</span>
+                            <span><i class="fas fa-clock"></i> 2 tournaments/month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 3 -->
+                <div class="game-card" data-category="fps">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/Valorant.jpg" alt="Valorant gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Valorant</h3>
+                        <p class="game-genre">FPS - Tactical</p>
+                        <p>Tactical shooter with unique character abilities. Great for teamwork!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 32 players</span>
+                            <span><i class="fas fa-clock"></i> 2 tournaments/month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 4 -->
+                <div class="game-card" data-category="rpg">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/skyrim.jpg" alt="Skyrim gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>The Elder Scrolls V: Skyrim</h3>
+                        <p class="game-genre">RPG - Open World</p>
+                        <p>Explore the world of Tamriel together. Perfect for casual gaming sessions.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 25 players</span>
+                            <span><i class="fas fa-clock"></i> Roleplay sessions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 5 -->
+                <div class="game-card" data-category="casual">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/among-us-6072073_1920.jpg" alt="Among Us gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Among Us</h3>
+                        <p class="game-genre">Casual - Social Deduction</p>
+                        <p>Great icebreaker game! Perfect for new members to get to know everyone.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 50+ players</span>
+                            <span><i class="fas fa-clock"></i> Weekly sessions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 6 -->
+                <div class="game-card" data-category="fps">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/Apex Legends.jpg" alt="Apex Legends gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Apex Legends</h3>
+                        <p class="game-genre">FPS - Battle Royale</p>
+                        <p>Fast-paced battle royale action. Drop in with friends and compete!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 28 players</span>
+                            <span><i class="fas fa-clock"></i> 1 tournament/month</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 7 -->
+                <div class="game-card" data-category="casual">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/minecraft.jpg" alt="Minecraft gameplay" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Minecraft</h3>
+                        <p class="game-genre">Casual - Sandbox</p>
+                        <p>Our creative server! Build amazing structures together and explore.</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 40 players</span>
+                            <span><i class="fas fa-clock"></i> Always active</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Game 8 -->
+                <div class="game-card" data-category="rpg">
+                    <div class="game-image">
+                        <!-- REAL IMAGE IMPLEMENTATION -->
+                        <img src="images/images.jpg" alt="Dungeons & Dragons session" class="game-image">
+                    </div>
+                    <div class="game-info">
+                        <h3>Dungeons & Dragons</h3>
+                        <p class="game-genre">Tabletop RPG</p>
+                        <p>Weekly D&D sessions. No experience needed - we'll teach you!</p>
+                        <div class="game-stats">
+                            <span><i class="fas fa-users"></i> 20 players</span>
+                            <span><i class="fas fa-clock"></i> Every Saturday</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Campus Gaming Club. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
